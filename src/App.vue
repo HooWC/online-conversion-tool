@@ -21,14 +21,13 @@ export default {
 
 <style scoped>
 /* 全局背景颜色 */
-
-
 #app {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Arial', sans-serif;
-  padding: 20px;
+  padding: 20;
+  margin: 0;
 }
 
 /* 容器样式 */
