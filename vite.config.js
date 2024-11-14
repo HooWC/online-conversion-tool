@@ -20,4 +20,7 @@ export default defineConfig({
     // 解决 process 未定义的问题
     'process.env': {},
   },
+  build: {
+    outDir: 'dist', // 确保输出目录为 dist
+  }
 })
